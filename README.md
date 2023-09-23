@@ -9,6 +9,7 @@ Para compilar tanto el archivo secuencial como paralelo en GUANE se debe realiza
         gcc -Wall -fopenmp -std=c99 codigoParalelo.c -o salidaParalela -lm
 
 Y para su posterior ejecución con los comandos:
+
         ./salidaSecuencial
         ./salidaParalela
 

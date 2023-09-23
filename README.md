@@ -1,4 +1,4 @@
-# IntroPP2201495
+# IntroPP2201776
 
 En la carpeta OpenMP se encuentran los archivos "codigoSecuencial.c" y "codigoParalelo.c", realizados para el ejercicio de Suma de números de Fibonacci en índices pares hasta N términos.
 

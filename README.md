@@ -4,6 +4,7 @@ En la carpeta OpenMP se encuentran los archivos "codigoSecuencial.c" y "codigoPa
 
 # Instrucciones de compilación y ejecución
 Para compilar tanto el archivo secuencial como paralelo en GUANE se debe realizar de la siguiente forma:
+
         gcc -Wall -fopenmp -std=c99 codigoSecuencial.c -o salidaSecuencial -lm
         gcc -Wall -fopenmp -std=c99 codigoParalelo.c -o salidaParalela -lm
 

@@ -13,6 +13,11 @@ Y para su posterior ejecución con los comandos:
         ./salidaSecuencial
         ./salidaParalela
 
-**Nota:** El valor de N esta dado de forma fija en el código, si desea modificarla puede usar un editor como vim o nano para modificar su valor en el codigo fuente.
+**Nota:** El valor de N está dado de forma fija en el código, si desea modificarla puede usar un editor como vim o nano para modificar su valor en el código fuente.
 Estos códigos fueron compilados y ejecutados en una máquina de 4 núcleos con sistema operativo Windows 10. 
+
+# Comparaciones de tiempos de ejecución al aumentar la escala
+Se consideraron dos soluciones para abordar el problema. La primera se centró en el uso de un arreglo para calcular todos los números de Fibonacci y, posteriormente, realizar una suma paralelizada de los índices. Esta solución tenía una complejidad tanto temporal como espacial de O(n).
+
+La segunda solución se basó en el empleo de una fórmula matemática que implicaba llamadas a la función "pow". Esta función tiene una complejidad de O(log n), por ello se paralelizaron simultáneamente los dos llamados a la función y, posteriormente, se realizó una suma paralelizada de los índices pares. Esta segunda solución tuvo una complejidad temporal de O(n log n) y una complejidad espacial de O(1).
 

@@ -54,7 +54,7 @@ int main()
     long n = 100000;
     double suma, ti, tf;
 
-    printf("Version paralela\n");
+    printf("Version paralela (n = %d)\n", n);
 
     // Solucion mediante Arreglo
     ti = omp_get_wtime();

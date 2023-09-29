@@ -33,7 +33,7 @@ int main()
     long n = 50000;
     double suma, ti, tf;
 
-    printf("Version secuencial\n");
+    printf("Version secuencial (n = %d)\n", n);
 
     // Solucion mediante Arreglo
     ti = omp_get_wtime();

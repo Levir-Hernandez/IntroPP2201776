@@ -24,3 +24,5 @@ La segunda solución se basó en el empleo de una fórmula matemática que impli
 Al realizar las ejecuciones con tamaños más grandes de N se nota como la solución matemática deja de ser viable, sin embargo teóricamente debería ser mejor que la versión con arreglo hasta cierto N pequeño, pero debido a la velocidad de la máquina esta mejora no es perceptible, por lo tanto se concluye que aunque la paralelización ayuda a reducir el tiempo de ejecución no cambia su tendencia final, por ello en este caso es mejor usar la versión con arreglos a pesar de que requiera más memoria.
 
 ![image](https://github.com/Levir-Hernandez/IntroPP2201776/assets/145631783/819cb5ce-527e-496f-bb2e-cef76b6edb27)
+
+**Nota:** Si la imagen con la comparación de tiempos de ejecución no se puede visualizar en este "README.md", dentro de la carpeta OpenMP se incluyó el archivo "Comparaciones de tiempos de ejecución.png".

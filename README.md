@@ -14,7 +14,7 @@ Y para su posterior ejecución con los comandos:
         ./salidaParalela
 
 **Nota:** El valor de N está dado de forma fija en el código, si desea modificarla puede usar un editor como vim o nano para modificar su valor en el código fuente.
-Estos códigos fueron compilados y ejecutados en una máquina *"AMD Ryzen 3 3200G with Radeon Vega Graphics, 3600 Mhz, con 4 procesadores principales y 4 procesadores lógicos"*.
+Estos códigos fueron compilados y ejecutados en una máquina * "AMD Ryzen 3 3200G with Radeon Vega Graphics, 3600 Mhz, con 4 procesadores principales y 4 procesadores lógicos" *.
 
 # Comparaciones de tiempos de ejecución al aumentar la escala
 Se consideraron dos soluciones para abordar el problema. La primera se centró en el uso de un arreglo para calcular todos los números de Fibonacci y, posteriormente, realizar una suma paralelizada de los índices. Esta solución tenía una complejidad tanto temporal como espacial de O(n).
